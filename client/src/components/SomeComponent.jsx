@@ -25,7 +25,7 @@ const SomeComponent = () => {
   return (
     <div>
       <h2>Pull Requests:</h2>
-      <ul>
+      <ul> 
         {pullRequests.map((pr) => (
           <li key={pr.id}>
             {pr.title} by {pr.user.login}
